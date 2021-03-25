@@ -11,13 +11,18 @@ We would like you to create a web application using C#.NET (Full Framework or Co
 
 One of Accent's major clients manages property 'For Sale' boards for estate agents across the UK. For this test, we have made an API available at https://boarderectors-api.accentdesign.co.uk that you will use to get information about properties managed by a specified estate agent, including the address of each property, the type of board at the property and the board's current status. We'd like you to use the PropertiesByCustomer endpoint that is documented at https://boarderectors-api.accentdesign.co.uk/swagger.
 
-As an example, https://boarderectors-api.accentdesign.co.uk/agents/acc001/properties returns a list of properties managed by Accent Estate Agents, who have the customer code 'acc001', including current board types and statuses.
+As an example, https://boarderectors-api.accentdesign.co.uk/agents/ACC001/properties returns a list of properties managed by Accent Estate Agents, who have the customer code 'ACC001', including current board types and statuses.
 
-The task is to create an application that accepts customer code as a parameter, then displays the following information about each property managed by the customer, by querying our API:
+The task is to create an application that accepts customer code as a parameter, and does the following:
 
-* Property Address
-* Current Board Type
-* Current Board Status
+* Displays the following information about each property managed by the customer, by querying our API:
+  * Property Address
+  * Erected Board Type
+  * Total Fee Charged
+* Apply a levy to the fee charged for certain properties
+  * For properties which have an erected board type of "sold", a levy of 7.5% must be applied to the total fee charged before it is displayed
+  * For those with "sale agreed", a 4% levy should be applied
+* Shows "grand total" of the fees charged for the properties
 
 Feel free to spend as much or as little time on the exercise as you like as long as the following requirements have been met.
 
