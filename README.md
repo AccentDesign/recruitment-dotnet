@@ -9,9 +9,9 @@ If you think you are up for it, then we would like you to spend 2-3 hours having
 
 We would like you to create a web application using C#.NET (Full Framework or Core) that queries an API and displays the information received. 
 
-One of Accent's major clients manages property 'For Sale' boards for estate agents across the UK. For this test, we have made an API available at https://boarderectors-api.accentdesign.co.uk that you will use to get information about properties managed by a specified estate agent, including the address of each property, the type of board at the property and the board's current status. We'd like you to use the PropertiesByCustomer endpoint that is documented at https://boarderectors-api.accentdesign.co.uk/swagger.
+One of Accent's major clients manages property 'For Sale' boards for estate agents across the UK. For this test, we have made an API available at http://boarderectors-api.accentstaging.co.uk/ that you will use to get information about properties managed by a specified estate agent, including the address of each property, the type of board at the property and the board's current status. We'd like you to use the PropertiesByCustomer endpoint that is documented at http://boarderectors-api.accentstaging.co.uk/swagger.
 
-As an example, https://boarderectors-api.accentdesign.co.uk/agents/ACC001/properties returns a list of properties managed by Accent Estate Agents, who have the customer code 'ACC001', including current board types and statuses.
+As an example, http://boarderectors-api.accentstaging.co.uk/agents/ACC001/properties returns a list of properties managed by Accent Estate Agents, who have the customer code 'ACC001', including current board types and statuses.
 
 The task is to create an application that accepts customer code as a parameter, and does the following:
 
