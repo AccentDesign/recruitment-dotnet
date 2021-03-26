@@ -13,7 +13,7 @@ One of Accent's major clients manages property 'For Sale' boards for estate agen
 
 As an example, http://boarderectors-api.accentstaging.co.uk/agents/ACC001/properties returns a list of properties managed by Accent Estate Agents, who have the customer code 'ACC001', including current board types and statuses.
 
-The task is to create an application that accepts customer code as a parameter, and does the following:
+The task is to build upon the provided MVC application to add functionality that accepts customer code as a parameter, and does the following:
 
 * Displays the following information about each property managed by the customer, by querying our API:
   * Property Address
@@ -28,7 +28,7 @@ Feel free to spend as much or as little time on the exercise as you like as long
 
 Your code should compile and run in one step.
 Feel free to use whatever libraries / packages you like.
-You must include tests
+You should include tests for the most criticial code
 Please avoid including artefacts from your local build (such as NuGet packages or the bin folder(s)) in your final ZIP file
 
 
