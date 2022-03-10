@@ -7,7 +7,7 @@ If you think you are up for it, then we would like you to spend 2-3 hours having
 
 ## Coding Test
 
-We would like you to create a web application using C#.NET (preferably .NET 6.0) that queries an API and displays the information received. 
+We would like you to create a web application using C#.NET that queries an API and displays the information received. 
 
 One of Accent's major clients manages property 'For Sale' boards for estate agents across the UK. For this test, we have made an API available at http://boarderectors-api.accentstaging.co.uk/ that you will use to get information about properties managed by a specified estate agent, including the address of each property, the type of board at the property and the board's current status. We'd like you to use the PropertiesByCustomer endpoint that is documented at http://boarderectors-api.accentstaging.co.uk/swagger.
 
